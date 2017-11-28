@@ -1,13 +1,8 @@
 - title: Home
   url: /index.html
-- title: Team
-  url: /team.html
-- title: Series
-  url: /series
-  sublinks:
-    - title: dr. Who
-      url: /series/drwho.html
-    - title: Dexter
-      url: /series/dexter.html
-- title: Contact
-  url: /contact.html
+- title: Eddie in huis
+  url: /eddieinhuis.html
+- title: Over Eddie
+  url: /overeddie.html
+- title: Goed om te weten
+  url: /goedomteweten.html
