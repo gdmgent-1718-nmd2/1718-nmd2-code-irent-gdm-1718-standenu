@@ -7,47 +7,5 @@
   "bootstrap-variables",                  // See _bootstrap-variables.scss
   "../_vendor/bootstrap/scss/bootstrap";  // See _vendor/bootstrap/scss/bootstrap.scss
 
-.intro {
 
-  margin-top: 80px !important;
-  text-align: right;
-}
-
-.navbar {
-  color: rgb(230, 230, 230) !important;
-}
-
-a {
-
-font-family: Ailerons !important; 
-letter-spacing: -3px;
-font-size: 1.2rem;}
-
-h1, h2  {
-
-  font-family: Ailerons !important; 
-  letter-spacing: -3px;
-
-}
-
-p {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.navbar-expand-lg .navbar-nav .nav-link { 
-    padding-right: 2rem !important;
-    padding-left: 2rem !important; 
-}
-
-.btn-primary {
-  color: #fff;
-  background-color: #be9219 !important;
-  border-color: #be9219 !important;
-}
-
-.lead {
-
-margin-left: 9%;
-
-}
-
+@import "custom";

@@ -1,5 +1,50 @@
 <footer class="py-5 bg-dark">
+  <div class="bg-dark text-white">
     <div class="container">
-      <p class="m-0 text-center text-white">Footer</p>
+      <div class="row">
+        <div class="p-4 col-md-4">
+          <h2 class="mb-4">Ga naar</h2>
+          <ul class="list-unstyled footernav">
+            {% assign links = site.data.navigation %}
+            {% for link in links %}
+                {% assign class = nil %}
+                {% if page.url == link.url %}
+                    {% assign class = ' footeractive' %}
+                {% endif %}
+                    <li class="nav-item{{ class }}">
+                        <a class="nav-link" href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
+                    </li>
+                
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="p-4 col-md-4">
+          <h2 class="mb-4">Contact</h2>
+          <p>
+            <a href="tel:+32478516796" class="text-white"><i class="fa d-inline mr-3 text-secondary fa-phone"></i>+ 32 478 51 67 96</a>
+          </p>
+          <p>
+            <a href="mailto:standenuwelaere@hotmail.com" class="text-white"><i class="fa d-inline mr-3 text-secondary fa-envelope-o"></i>info@catcall</a>
+          </p>
+          <p>
+            <a href="https://goo.gl/maps/nAbXLwhU1WU2" class="text-white" target="_blank"><i class="fa d-inline mr-3 fa-map-marker text-secondary"></i>Galgenberg 13<br>9000 Gent</br></a>
+          </p>
+        </div>
+        <div class="p-4 col-md-4">
+          <h2 class="mb-4">Volg ons</h2>
+<div class="icons">
+          <a href="https://www.instagram.com" class="text-white" target="_blank"> <i class="fa fa-instagram" aria-hidden="true" tyle="height: 24px"></i> </a>
+          <a href="https://www.facebook.com" class="text-white" target="_blank"> <i class="fa fa-facebook" aria-hidden="true"></i> </a>
+          <a href="https://www.twitter.com" class="text-white" target="_blank"> <i class="fa fa-twitter" aria-hidden="true"></i> </a>
+        </div>
+<!--          <form>
+            <fieldset class="form-group text-white"> <label for="exampleInputEmail1">Get our newsletter</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email"> </fieldset>
+            <button type="submit" class="btn btn-outline-secondary">Submit</button>
+          </form> -->
+        </div>
+      </div>
+      </div>
     </div>
+  </div>
   </footer>
