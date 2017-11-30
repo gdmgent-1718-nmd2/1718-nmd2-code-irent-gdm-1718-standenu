@@ -3,6 +3,15 @@
   src: url("../assets/fonts/Ailerons-Typeface.otf");
 }
 
+@font-face {
+  font-family: 'aileronsregular';
+  src: url('ailerons-typeface-webfont.woff2') format('woff2'),
+       url('ailerons-typeface-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 @mixin embed-font (Ailerons) {
 
   @Ailerons{
