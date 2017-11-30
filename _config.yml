@@ -41,3 +41,7 @@ sass:
 #  style: expanded
 #  style: compact
 #  style: compressed
+
+assets:
+  sources:
+    - _assets/fonts
