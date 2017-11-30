@@ -1,6 +1,14 @@
-@font-face {
+ @font-face {
   font-family: Ailerons;
   src: url(font_path('Ailerons-Typeface.otf'));
+}
+
+@mixin embed-font (Ailerons) {
+
+  @Ailerons{
+    font-family: Ailerons;
+    src: url(font_path('Ailerons-Typeface.otf'))
+  }
 }
 
 @import
