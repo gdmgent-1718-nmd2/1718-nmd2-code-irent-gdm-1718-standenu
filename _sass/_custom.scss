@@ -1,7 +1,6 @@
 .intro {
     
       margin-top: 95px !important;
-      text-align: right;
     }
     
     
@@ -36,7 +35,13 @@
     .lead {
     
     margin-left: 9%;
-    
+   
+    }
+
+    .bottom {
+        margin-left: 0;
+        margin-right: 15%;
+        margin-top: 10%
     }
     
     .bg-light {
@@ -82,4 +87,16 @@ margin-right: 30px;
 .navbar-brand {
 
     margin-left: 1.5rem;
+}
+
+.navbar-brand:hover {
+    
+    transform: scale(1.1);
+    margin-right: 40px;
+    margin-left: 26px;
+    }
+
+.numbers {
+
+    margin-top: 30px;
 }
