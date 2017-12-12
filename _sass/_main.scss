@@ -21,3 +21,40 @@
 @import "eddieinhuis";
 
 @import "overeddie";
+
+
+@media screen and (max-width: 480px) {
+
+.catphoto {
+
+  width: 200px;
+}
+
+.cosyphoto {
+
+  margin-top: 30px;
+}
+
+.lead {
+
+  margin-left: 0px;
+}
+
+.dl {
+  
+  margin: 40px;
+}
+
+h2 {
+
+  font-size: 1.5rem;
+}
+
+.catphoto2 {
+
+  width: 300px;
+  margin-top: 40px;
+}
+
+
+}
