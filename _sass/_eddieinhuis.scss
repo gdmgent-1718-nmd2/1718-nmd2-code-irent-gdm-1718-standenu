@@ -1,96 +1,79 @@
+
+
 section {
-    padding: 5% 0;
-    margin-top: 40px;
+	margin-top: 40px;
+	padding: 5% 0;
 }
-
 .gold {
-
-    background-color: #d9caac;
+	background-color: $background_color_1;
 }
-
 .dl {
-    background: #e9ecef;
-    padding: 30px 0;
-    border-radius: 20px;
-    position: relative;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	background: #e9ecef;
+	border-radius: 20px;
+	position: relative;
+	font-family: $Basistekst;
+	padding: 30px 0;
+	&:before {
+		content: " ";
+		height: 20px;
+		width: 20px;
+		background: #ddd;
+		border-radius: 20px;
+		position: absolute;
+		left: 50%;
+		top: 20px;
+		margin-left: -10px;
+	}
+	.brand {
+		text-transform: uppercase;
+		letter-spacing: 3px;
+		margin-top: 10px;
+		text-align: center;
+		min-height: 100px;
+		padding: 10px 15px;
+	}
+	.discount {
+		min-height: 30px;
+		position: relative;
+		font-size: 60px;
+		line-height: 80px;
+		text-align: center;
+		color: $Donkerbruin;
+		padding: 20px 15px 0;
+		.type {
+			font-size: 20px;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+			margin-top: -30px;
+		}
+	}
+	.descr {
+		color: $color_2;
+		margin-top: 10px;
+		padding: 20px 15px;
+	}
+	.coupon {
+		min-height: 50px;
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: 18px;
+		padding: 20px 15px;
+	}
 }
-
-.dl:before {
-    content: " ";
-    height: 20px;
-    width: 20px;
-    background: #ddd;
-    border-radius: 20px;
-    position: absolute;
-    left: 50%;
-    top: 20px;
-    margin-left: -10px;
-}
-    
-.dl .brand {
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    padding: 10px 15px;
-    margin-top: 10px;
-    text-align: center;
-    min-height: 100px; 
-}
-
-.dl .discount {
-    min-height: 30px;
-    position: relative;
-    font-size: 60px;
-    line-height: 80px;
-    text-align: center;
-    padding: 20px 15px 0;
-    color: #5a514def;
-}
-
-
-
-.dl .discount .type {
-    font-size: 20px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    margin-top: -30px;
-}
-
-.dl .descr {
-    color: #999;
-    margin-top: 10px;
-    padding: 20px 15px; 
-}
- 
-
-
-.dl .coupon {
-    min-height: 50px;
-    text-align: center;
-    
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 18px;
-    padding: 20px 15px;
-}
-
 small {
-
-    font-size: 18px;
+	font-size: 18px;
 }
-
 strong {
-
-    font-size: 20px;
-    color: #5a514def;
+	font-size: 20px;
+	color: $Donkerbruin;
 }
-
+.table {
+	font-weight: 400 !important;
+}
 table {
-
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-family: $Basistekst;
 }
-
 .panel {
-
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-family: $Basistekst;
 }

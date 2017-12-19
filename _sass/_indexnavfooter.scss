@@ -1,67 +1,69 @@
+
+
+
 .intro {
-    margin-top:95px!important;
-    }
-    
-    a {
-    font-family:Ailerons!important;
-    letter-spacing:-3px;
-    font-size:1.2rem;
-    }
-    
-    h1,h2 {
-    font-family:Ailerons!important;
-    letter-spacing:-3px;
-    }
-    
-    p {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
-    
-    .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right:2rem!important;
-    padding-left:2rem!important;
-    }
-    
-    .btn-primary {
-    color:#fff;
-    background-color:#be9219!important;
-    border-color:#be9219!important;
-    }
-    
-    .lead {
-    margin-left:9%;
-    }
-    
-    .bottom {
-    margin-left:0;
-    margin-right:15%;
-    margin-top:10%;
-    }
-    
-    .bg-light {
-    background-color:#f8f9fa!important;
-    }
-    
-    .active {
-    border-bottom:1px solid #000;
-    }
-    
-    .footernav {
-    a {
-    color:#FFF;
-    font-size:1rem;
-    }
-    }
-    
-    .p-4 {
-    h2 {
-        font-size:1.5rem;}
-    }
-    
-    .footeractive {
-    a { color:#868e96!important;}
-    }
-    
+	margin-top: 95px !important;
+}
+a {
+	font-family: $Titel !important;
+	letter-spacing: -3px;
+	font-size: 1.2rem;
+}
+h1 {
+	font-family: $Titel !important;
+	letter-spacing: -3px;
+}
+h2 {
+	font-family: $Titel !important;
+	letter-spacing: -3px;
+}
+p {
+	font-family: $Basistekst;
+}
+.navbar-expand-lg {
+	.navbar-nav {
+		.nav-link {
+			padding-right: 2rem !important;
+			padding-left: 2rem !important;
+		}
+	}
+}
+.btn-primary {
+	color: $White;
+	background-color: $Gold !important;
+	border-color: $Gold !important;
+}
+.lead {
+	margin-left: 9%;
+}
+.bottom {
+	margin-left: 0;
+	margin-right: 15%;
+	margin-top: 10%;
+}
+.bg-light {
+	background-color: $Grey !important;
+}
+.active {
+	border-bottom: 1px solid #000;
+}
+.navbar-brand {
+	margin-left: 1.5rem;
+	&:hover {
+		transform: scale(1.1);
+		margin-right: 40px;
+		margin-left: 26px;
+	}
+}
+.numbers {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.btn {
+	&:hover {
+		transform: scale(1.1);
+	}
+}
     .icons {
     i {margin-top:40px;
     margin-right:30px;
@@ -69,30 +71,19 @@
     display:inline-block;}
     }
     
-    .navbar-brand {
-    margin-left:1.5rem;
+    h4 {
+    margin-bottom:0;
     }
     
-    .navbar-brand:hover {
-    transform:scale(1.1);
-    margin-right:40px;
-    margin-left:26px;
+    .footeractive {
+    a {color:#868e96!important;}
     }
     
-    .numbers {
-    margin-top:30px;
-    margin-bottom:30px;
-    }
-    
-    .btn:hover {
-    transform:scale(1.1);
+    .p-4 {
+    h2 {font-size:1.5rem;}
     }
 
-    .card {
-
-
-        h4 {
-
-            margin-bottom: 0px;
+    .footernav {
+        a {color:$White;
+        font-size:1rem;}
         }
-    }
